@@ -1,0 +1,8 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "dashboard"
+  ],
+  "theme": "obsidian"
+}

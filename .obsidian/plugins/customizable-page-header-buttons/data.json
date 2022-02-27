@@ -1,0 +1,23 @@
+{
+  "enabledButtons": [
+    {
+      "id": "app:go-back",
+      "icon": "left-arrow-with-tail",
+      "name": "Navigate back",
+      "showButtons": "both"
+    },
+    {
+      "id": "app:go-forward",
+      "icon": "right-arrow-with-tail",
+      "name": "Navigate forward",
+      "showButtons": "both"
+    },
+    {
+      "id": "homepage:open-homepage",
+      "icon": "feather-home",
+      "name": "Homepage: Open homepage",
+      "showButtons": "both"
+    }
+  ],
+  "desktop": true
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "defaultNote": "Dashboard++",
+  "workspace": "Home",
+  "workspaceEnabled": false,
+  "hasRibbonIcon": true,
+  "openMode": "Replace all open notes",
+  "view": "Reading view",
+  "refreshDataview": false
+}

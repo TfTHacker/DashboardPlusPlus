@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "d353772624cebe75",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1223c1f0041c8d8",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "42bf9280c11f2a5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b12c8a84d26a32d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0d60735573386f5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "40d21c2632e07b7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fb9956fe647de07a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c8a13d38502f2423",
+    "type": "split",
+    "children": [
+      {
+        "id": "86f80c5fb61f56df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01c06e010e844738",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5a5fa2e51236c09d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a1223c1f0041c8d8",
+  "lastOpenFiles": [
+    "Family/Objectives/Family Recipes.md",
+    "Dashboard++.md",
+    "Family/Vacaations/Peru.md",
+    "Untitled.md",
+    "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
+    "Family/Recipes/Smores.md",
+    "Family/Objectives/Family Calendar.md",
+    "Family/Peru.md",
+    "Personal Projects/Learning/Early American History.md",
+    "Family/Objectives/Education Plan.md"
+  ]
+}
