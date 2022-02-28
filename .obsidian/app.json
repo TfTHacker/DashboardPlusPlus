@@ -2,5 +2,6 @@
   "readableLineLength": false,
   "foldHeading": true,
   "foldIndent": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "promptDelete": false
 }
