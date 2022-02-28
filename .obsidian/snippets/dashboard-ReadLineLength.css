@@ -1,0 +1,12 @@
+/* 
+Optional css that can be added to make dashboards use wide margin 
+if "Readable line length" is enabled in Editor
+ 
+Updated 2022-02-28
+
+*/
+
+ .dashboard .markdown-preview-section {
+    width: 100% !important;
+    max-width: 100% !important;
+ }

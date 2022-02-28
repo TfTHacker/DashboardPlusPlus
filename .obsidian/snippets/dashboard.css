@@ -1,3 +1,5 @@
+/* Updated 2022-02-28 */
+
 .dashboard {
     padding-left: 25px !important;
     padding-right: 25px !important;
@@ -27,10 +29,11 @@
     list-style: none;
     display: flex;
     column-gap: 50px;
+    row-gap: 30px;
     flex-flow: row wrap;
 }
 
 .dashboard div > ul > li {
     min-width: 250px;
-    width: 20%;
+    width: 15%;
 }
