@@ -1,5 +1,6 @@
 ---
 banner: "![[Kitchen.jpeg]]"
+banner: "![[Kitchen.jpeg]]"
 banner_y: 0.55
 cssclass: dashboard
 banner_x: 0.5

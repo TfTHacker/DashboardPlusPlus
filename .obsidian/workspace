@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3a8485c0ffaff00d",
+        "id": "b84c272458d9ffa9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Dashboard++.md",
+            "mode": "preview",
+            "source": false
+          }
         }
       }
     ],
@@ -57,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 171
   },
   "right": {
     "id": "c8a13d38502f2423",
@@ -74,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dashboard++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dashboard++.md"
+              }
             }
           }
         ]
@@ -99,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3a8485c0ffaff00d",
+  "active": "b84c272458d9ffa9",
   "lastOpenFiles": [
     "Dashboard++.md",
-    "Family/Objectives/Family Recipes.md",
     "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
-    "Family/Vacaations/Peru.md",
-    "Untitled.md",
-    "Family/Recipes/Smores.md",
-    "Family/Objectives/Family Calendar.md",
-    "Family/Peru.md",
-    "Personal Projects/Learning/Early American History.md",
-    "Family/Objectives/Education Plan.md"
+    "Work/Personnel/Sally Smith.md",
+    "Work/Personnel/Olga Olson.md",
+    "Work/Personnel/Brad Jefferson.md",
+    "Work/Personnel/Bill Hansen.md",
+    "Work/Projects/IT Cybersecurity training.md",
+    "Work/Projects/Firewall upgrades.md",
+    "Work/Projects/Cloud backup.md",
+    "Work/Budget/Q4 2022.md"
   ]
 }

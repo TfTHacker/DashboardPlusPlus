@@ -3,5 +3,7 @@
   "foldHeading": true,
   "foldIndent": true,
   "defaultViewMode": "preview",
-  "promptDelete": false
+  "promptDelete": false,
+  "legacyEditor": false,
+  "livePreview": true
 }

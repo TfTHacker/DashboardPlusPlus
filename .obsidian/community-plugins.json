@@ -3,5 +3,7 @@
   "obsidian-emoji-toolbar",
   "dataview",
   "customizable-page-header-buttons",
-  "obsidian-banners"
+  "obsidian-banners",
+  "templater-obsidian",
+  "obsidian-hover-editor"
 ]
