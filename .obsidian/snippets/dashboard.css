@@ -29,7 +29,6 @@
     list-style: none;
     display: flex;
     column-gap: 50px;
-    row-gap: 30px;
     flex-flow: row wrap;
 }
 

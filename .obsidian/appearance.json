@@ -4,5 +4,6 @@
   "enabledCssSnippets": [
     "dashboard"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": ""
 }

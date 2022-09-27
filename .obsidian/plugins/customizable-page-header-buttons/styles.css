@@ -1,7 +1,7 @@
 /*
 	MIT License
 
-	Copyright (c) 2021-2022 kometenstaub
+	Copyright (c) 2021-2022 kometenstaub and contributors
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
@@ -45,6 +45,29 @@ settings:
         max: 30
         step: 1
         format: px
+    - 
+        id: titlebar-button-horizontal-spacing
+        title: Horizontal spacing of titlebar buttons
+        type: variable-number-slider
+        default: 16
+        min: 4
+        max: 16
+        step: 1
+        format: px
+    - 
+        id: display-view-header-title
+        title: Hide the view header title 
+        description: Hiding it makes sense because of the embedded title. It gives more space for buttons, which is useful when many tab containers are open.
+        type: variable-select
+        default: initial
+        options:
+            -
+                label: Show title
+                value: initial
+            -
+                label: Hide title
+                value: none
+
 */
 
-.page-header-button.titlebar-center{flex-grow:1;font-size:12px;height:100%;left:0;letter-spacing:.05em;opacity:.8;position:absolute;text-align:center;top:0;width:100%}:not(.is-mobile) .view-actions{align-items:center}:not(.is-mobile) .view-action.pane-relief{display:flex;position:unset}:not(.is-mobile) .view-action.pane-relief.app\:go-back:before,:not(.is-mobile) .view-action.pane-relief.app\:go-forward:after{display:inline;font-size:1em;line-height:1;vertical-align:text-top}:not(.is-mobile) .view-action.pane-relief.app\:go-forward:after{content:var(--pane-relief-forward-count);padding-left:.4em}:not(.is-mobile) .view-action.pane-relief.app\:go-back:before{content:var(--pane-relief-backward-count);padding-right:.4em}:not(.is-mobile) .view-action:not(:last-child){margin-right:var(--page-header-spacing-desktop)}:not(.is-mobile) .pane-relief body:not(.no-svg-replace) svg{vertical-align:top}.is-mobile .view-action:not(:last-child){margin-right:var(--page-header-spacing-mobile)}
+.view-header-title{display:var(--display-view-header-title,initial)}.page-header-button.titlebar-center{align-items:center;display:flex;flex-grow:1;font-size:13px;height:100%;justify-content:center;left:0;opacity:.8;overflow:hidden;padding:0 125px;position:absolute;text-align:center;text-overflow:ellipsis;top:0;white-space:nowrap;width:100%}.titlebar-button{align-items:center}.titlebar-button.titlebar-button.page-header-button{align-items:center;display:flex;padding:16px var(--titlebar-button-horizontal-spacing,16px)}body:not(.is-mobile) .view-actions{align-items:center}body:not(.is-mobile) .view-action,body:not(.is-mobile) .view-action.pane-relief{display:flex;position:unset}body:not(.is-mobile) .view-action.pane-relief.app\:go-back:before,body:not(.is-mobile) .view-action.pane-relief.app\:go-forward:after{display:inline;font-size:1em;line-height:1;vertical-align:text-top}body:not(.is-mobile) .view-action.pane-relief.app\:go-forward:after{content:var(--pane-relief-forward-count);padding-left:.4em}body:not(.is-mobile) .view-action.pane-relief.app\:go-back:before{content:var(--pane-relief-backward-count);padding-right:.4em}body:not(.is-mobile) .view-action:not(:last-child){margin-right:var(--page-header-spacing-desktop)}body:not(.is-mobile) .pane-relief body:not(.no-svg-replace) svg{vertical-align:top}.is-mobile .view-actions{align-items:center}.is-mobile .view-action:not(:last-child){margin-right:var(--page-header-spacing-mobile)}.is-mobile .view-header-title{-webkit-mask-image:none;mask-image:none}
