@@ -1,6 +1,6 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "dashboard"
   ],

@@ -104179,12 +104179,17 @@ class EmojiToolbar extends react.Component {
     }
 }
 
+const DEF_DELAY = 1000;
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms || DEF_DELAY));
+}
 class EmojiModal extends obsidian.Modal {
     constructor(app, theme) {
         super(app);
         this.reactComponent = react.createElement(EmojiToolbar, {
-            "onSelect": (emoji) => {
+            "onSelect": async (emoji) => {
                 this.close();
+                await sleep(10);
                 document.execCommand('insertText', false, emoji.native);
             },
             "onClose": () => {

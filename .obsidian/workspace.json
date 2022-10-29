@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "14ff2bbac2338b15",
+        "id": "fcd45be59113dc73",
         "type": "tabs",
         "children": [
           {
-            "id": "c1bae9d4b129cf99",
+            "id": "2e3552324e8d56c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard++.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dashboard++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dashboard++.md"
+              }
             }
           }
         ]
@@ -106,17 +113,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c1bae9d4b129cf99",
+  "active": "2e3552324e8d56c0",
   "lastOpenFiles": [
-    "Dashboard++.md",
     "Family/Objectives/Family Recipes.md",
-    "Family/Objectives/Family Calendar.md",
+    "Dashboard++.md",
+    "Family/Guests/Guest list.md",
     "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
     "README.md",
+    "Family/Objectives/Family Calendar.md",
     "Personal Projects/Learning/Early American History.md",
     "Work/Personnel/Brad Jefferson.md",
     "Work/Personnel/Sally Smith.md",
-    "Work/Personnel/Olga Olson.md",
-    "Work/Personnel/Bill Hansen.md"
+    "Work/Personnel/Olga Olson.md"
   ]
 }
