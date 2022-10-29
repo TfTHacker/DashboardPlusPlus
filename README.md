@@ -5,6 +5,10 @@ This repository is an Obsidian vault that demonstrates using the Dashboard++ met
 
 You can find me on Twitter [@TfTHacker](https://twitter.com/TfTHacker)
 
+Or better yet, watch a video on how to install this from Sergio:
+
+[![](images/YouTubeFromSergio.png)](https://youtu.be/AatZl1Z_n-g)
+
 
 ## Say Thank You
 
