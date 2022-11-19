@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c3973f9aa03b6b6c",
+        "id": "ceb2db57d79e7db1",
         "type": "tabs",
         "children": [
           {
-            "id": "dcd8c5b657c7569c",
+            "id": "f8a483d4247f0416",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard++.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dashboard++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dashboard++.md"
+              }
             }
           }
         ]
@@ -106,17 +113,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dcd8c5b657c7569c",
+  "active": "f8a483d4247f0416",
   "lastOpenFiles": [
+    "Dashboard++.md",
+    "Family/Objectives/Family Recipes.md",
+    "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
+    "Family/Objectives/Yearly Budget.md",
     "README.md",
     "images/YouTubeFromSergio.png",
     "images/home.jpg",
-    "Dashboard++.md",
-    "Family/Objectives/Family Recipes.md",
     "Family/Guests/Guest list.md",
-    "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
     "Family/Objectives/Family Calendar.md",
-    "Personal Projects/Learning/Early American History.md",
-    "Work/Personnel/Brad Jefferson.md"
+    "Personal Projects/Learning/Early American History.md"
   ]
 }

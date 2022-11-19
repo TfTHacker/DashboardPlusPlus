@@ -5,14 +5,10 @@
   "graph",
   "backlink",
   "page-preview",
-  "note-composer",
   "command-palette",
   "slash-command",
   "editor-status",
   "starred",
-  "markdown-importer",
   "outline",
-  "word-count",
-  "file-recovery",
-  "sync"
+  "word-count"
 ]
