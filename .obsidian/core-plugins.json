@@ -4,11 +4,13 @@
   "switcher",
   "graph",
   "backlink",
+  "canvas",
   "page-preview",
   "command-palette",
   "slash-command",
   "editor-status",
-  "starred",
+  "bookmarks",
   "outline",
-  "word-count"
+  "word-count",
+  "starred"
 ]
