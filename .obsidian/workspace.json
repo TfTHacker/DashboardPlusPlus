@@ -11,11 +11,28 @@
             "id": "b5809610a43a3a47",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Personal Projects/Remodeling/Paint entryway.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45506ef0f90068d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal Projects/Remodeling/Project X Definition and Specifications.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Personal Projects/Remodeling/Project X Definition and Specifications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Personal Projects/Remodeling/Project X Definition and Specifications.md"
+              }
             }
           }
         ]
@@ -127,16 +147,17 @@
   },
   "active": "83ac81eba215c268",
   "lastOpenFiles": [
+    "Personal Projects/Remodeling/Bathroom Remodel.md",
+    "Personal Projects/Remodeling/Project X Definition and Specifications.md",
     "Personal Projects/Remodeling/Paint entryway.md",
+    "Personal Projects/Remodeling/Research building Garage.md",
+    "Personal Projects/Writing/5 ways to love PKM more.md",
+    "Personal Projects/Learning/Spanish - Entry Level.md",
     "Personal Projects/Learning/Early American History.md",
     "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
     "Dashboard++.md",
     "README.md",
-    "Personal Projects/Learning/Spanish - Entry Level.md",
     "Family/Recipes/Smores.md",
-    "Personal Projects/Remodeling/Bathroom Remodel.md",
-    "Personal Projects/Remodeling/Research building Garage.md",
-    "Personal Projects/Writing/5 ways to love PKM more.md",
     "Work/Projects/Cloud backup.md",
     "Work/Personnel/Olga Olson.md",
     "Work/Personnel/Brad Jefferson.md",
