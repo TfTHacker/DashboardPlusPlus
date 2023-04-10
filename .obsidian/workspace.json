@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "03ba2550f9bf0072",
+        "id": "1e9c6c5875a6929b",
         "type": "tabs",
         "children": [
           {
-            "id": "b5809610a43a3a47",
+            "id": "d9dc4af0757ca752",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Projects/Remodeling/Paint entryway.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45506ef0f90068d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal Projects/Remodeling/Project X Definition and Specifications.md",
-                "mode": "source",
+                "file": "Work/Projects/Firewall upgrades.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal Projects/Remodeling/Project X Definition and Specifications.md",
+                "file": "Work/Projects/Firewall upgrades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,16 +110,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal Projects/Remodeling/Project X Definition and Specifications.md"
+                "file": "Work/Projects/Firewall upgrades.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,33 +131,37 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "83ac81eba215c268",
+  "active": "e0d60735573386f5",
   "lastOpenFiles": [
+    "Work/Personnel/Brad Jefferson.md",
+    "Work/Projects/Firewall upgrades.md",
+    "Work/Personnel/Bill Hansen.md",
+    "Work/Budget/Q1 2022.md",
+    "Personal Projects/Writing/5 ways to love PKM more.md",
+    "Research/What is Spaced Repetition and How to use it?.md",
     "Personal Projects/Remodeling/Bathroom Remodel.md",
-    "Personal Projects/Remodeling/Project X Definition and Specifications.md",
     "Personal Projects/Remodeling/Paint entryway.md",
     "Personal Projects/Remodeling/Research building Garage.md",
-    "Personal Projects/Writing/5 ways to love PKM more.md",
-    "Personal Projects/Learning/Spanish - Entry Level.md",
     "Personal Projects/Learning/Early American History.md",
+    "Personal Projects/Learning/Spanish - Entry Level.md",
     "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
-    "Dashboard++.md",
-    "README.md",
+    "Research/Untitled",
+    "Research",
+    "Personal Projects/Remodeling/Project X Definition and Specifications.md",
     "Family/Recipes/Smores.md",
-    "Work/Projects/Cloud backup.md",
-    "Work/Personnel/Olga Olson.md",
-    "Work/Personnel/Brad Jefferson.md",
-    "Work/Personnel/Bill Hansen.md",
-    "Work/Personnel/Sally Smith.md",
-    "Work/Projects/IT Cybersecurity training.md",
-    "Work/Projects/Firewall upgrades.md",
-    "Family/Objectives/Family Recipes.md",
-    "Work/Budget/Q4 2022.md",
+    "Family/Vacations/Texas.md",
+    "Family/Vacations/Peru.md",
+    "Family/Vacations/Austria.md",
     "Family/Recipes/Almond Peanut Butter.md",
-    "Family/Objectives/Family Calendar.md",
     "Family/Objectives/Yearly Budget.md",
+    "Family/Objectives/Family Recipes.md",
+    "Family/Objectives/Family Calendar.md",
+    "Family/Objectives/Education Plan.md",
+    "Family/Guests/Guest list.md",
+    "Work/Projects/IT Cybersecurity training.md",
+    "Work/Projects/Cloud backup.md",
+    "Dashboard++.md",
     "images/YouTubeFromSergio.png",
-    "images/home.jpg",
-    "Family/Guests/Guest list.md"
+    "images/home.jpg"
   ]
 }
