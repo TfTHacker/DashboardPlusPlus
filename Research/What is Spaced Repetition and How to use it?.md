@@ -28,6 +28,7 @@ After reviewing your flashcards for a few days, start spacing out your reviews. 
 
 ## Step 4: Focus on Difficult Cards
 Focus more on the flashcards you struggle with and less on the ones you find easy. This will help you spend more time reinforcing the information that needs to be strengthened.
+
  
 # Examples of spaced repetition flashcards:
 

@@ -104185,14 +104185,22 @@ const DEF_DELAY = 1000;
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms || DEF_DELAY));
 }
+function insertText(editor, text) {
+    if (text.length === 0 || text == null)
+        return;
+    const cursor = editor.getCursor('from');
+    editor.replaceRange(text, cursor, cursor);
+    app.commands.executeCommandById("editor:focus");
+    app.workspace.activeLeaf.view.editor.exec("goRight");
+}
 class EmojiModal extends obsidian.Modal {
-    constructor(app, theme, isNative) {
+    constructor(app, theme, isNative, editor) {
         super(app);
         this.reactComponent = react.createElement(EmojiToolbar, {
             "onSelect": async (emoji) => {
                 this.close();
                 await sleep(10);
-                document.execCommand('insertText', false, emoji.native);
+                insertText(editor, emoji.native);
             },
             "onClose": () => {
                 this.close();
@@ -104233,7 +104241,11 @@ class EmojiPickerPlugin extends obsidian.Plugin {
                         try {
                             const theme = this.app.getTheme() === 'moonstone' ? 'light' : 'dark';
                             const isNative = !this.settings.twitterEmojiActive;
-                            const myModal = new EmojiModal(this.app, theme, isNative);
+                            const view = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+                            if (!view) {
+                                return;
+                            }
+                            const myModal = new EmojiModal(this.app, theme, isNative, view.editor);
                             myModal.open();
                             document.getElementsByClassName("emoji-mart-search")[0].getElementsByTagName('input')[0].focus();
                             document.getElementsByClassName("emoji-mart-search")[0].getElementsByTagName('input')[0].select();

@@ -1,4 +1,4 @@
-/* Updated 2022-02-28 */
+/* Updated 2023-07-26 */
 
 .dashboard {
     padding-left: 25px !important;
@@ -23,6 +23,22 @@
     border-bottom-style: dotted !important;
     border-width: 1px !important;
     padding-bottom: 3px !important;
+}
+
+
+/* Get rid of the parent bullet */
+.dashboard div.markdown-preview-section > div > ul > li > div.list-bullet {
+    display: none !important;
+}
+
+/* Remove the indentation guide lines */
+.dashboard.markdown-rendered.show-indentation-guide li > ul::before,
+.dashboard.markdown-rendered.show-indentation-guide li > ol::before {
+  display: none;
+}
+
+div.markdown-preview-section > div > ul.has-list-bullet > li {
+    padding-left: 0p !important;
 }
 
 .dashboard div > ul {

@@ -372,11 +372,17 @@ body {
   justify-content: flex-end;
 }
 
-.popover.hover-editor .popover-content {
+.popover.hover-editor > .popover-content {
   margin: 0;
   border-radius: var(--he-popover-border-radius);
   overflow: hidden;
   height: 100%;
+  width: 100%;
+}
+
+.popover.hover-popover.hover-editor .pdf-toolbar:not(.pdf-findbar.mod-hidden) {
+  /* Show PDF toolbar in hover editor */
+  display: flex;
 }
 
 .popover.hover-editor .popover-titlebar .popover-title {
