@@ -1,4 +1,4 @@
-/* Updated 2023-07-26 */
+/* Updated 2023-08-07 */
 
 .dashboard {
     padding-left: 25px !important;
@@ -52,3 +52,11 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     min-width: 250px;
     width: 15%;
 }
+
+/* Dataview support */
+.dashboard ul.dataview {
+    row-gap: 0px !important;
+    list-style-type: disc !important;
+}
+
+
