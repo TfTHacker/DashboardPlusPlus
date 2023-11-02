@@ -7,5 +7,6 @@
   "legacyEditor": false,
   "livePreview": true,
   "smartIndentList": true,
-  "showIndentGuide": true
+  "showIndentGuide": true,
+  "propertiesInDocument": "hidden"
 }
