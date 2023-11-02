@@ -1,6 +1,7 @@
 /* Updated 2023-08-07 */
 
 .dashboard {
+    font-family: inherit;
     padding-left: 25px !important;
     padding-right: 25px !important;
     padding-top: 20px !important;
