@@ -2,7 +2,8 @@
   "baseFontSize": 16,
   "cssTheme": "",
   "enabledCssSnippets": [
-    "dashboard"
+    "dashboard",
+    "dashboard-ReadLineLength"
   ],
   "theme": "obsidian",
   "accentColor": ""
