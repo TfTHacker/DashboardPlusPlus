@@ -120,7 +120,7 @@ body {
   --he-text-on-accent-inactive: var(--text-on-accent); /* couldn't find a good variable that worked across themes */
   --he-text-on-accent-active: #fff;
   /* z-index layer settings, probably not a good idea to mess with these */
-  --he-popover-layer-inactive: var(--layer-popover);
+  --he-popover-layer-inactive: calc(var(--layer-slides) - 4);
   --he-popover-layer-active: calc(var(--he-popover-layer-inactive) + 1);
   --he-popover-layer-new: calc(var(--he-popover-layer-inactive) + 2);
   --he-leaf-drag-overlay: calc(var(--he-popover-layer-inactive) + 3);
