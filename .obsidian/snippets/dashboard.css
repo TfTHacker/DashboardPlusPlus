@@ -28,7 +28,7 @@
 
 
 /* Get rid of the parent bullet */
-.dashboard div.markdown-preview-section > div > ul > li > div.list-bullet {
+.dashboard div.markdown-preview-section > div > ul > li > .list-bullet {
     display: none !important;
 }
 
