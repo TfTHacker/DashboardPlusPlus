@@ -1,14 +1,28 @@
 {
   "main": {
-    "id": "d353772624cebe75",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "92913bec1014e31e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "c5f50953147946b0",
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "d44a6e516bd0bb2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,10 +30,13 @@
                 "file": "Dashboard++.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard++"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -70,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -101,7 +126,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dashboard++"
             }
           },
           {
@@ -111,7 +138,9 @@
               "type": "outline",
               "state": {
                 "file": "Dashboard++.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dashboard++"
             }
           }
         ],
@@ -131,36 +160,36 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c5f50953147946b0",
+  "active": "d44a6e516bd0bb2c",
   "lastOpenFiles": [
-    "Personal Projects/Remodeling/Bathroom Remodel.md",
-    "Dashboard++.md",
-    "Family/Vacations/Peru.md",
     "README.md",
+    "Dashboard++.md",
+    "Work/Projects/Cloud backup.md",
+    "Family/Guests/Guest list.md",
+    "Family/Vacations/Austria.md",
+    "Personal Projects/Writing/5 ways to love PKM more.md",
+    "Personal Projects/Remodeling/Bathroom Remodel.md",
+    "Personal Projects/Learning/Early American History.md",
+    "Research/What is Spaced Repetition and How to use it.md",
+    "Work/Projects/Firewall upgrades.md",
+    "Work/Projects/IT Cybersecurity training.md",
+    "Work/Personnel/Brad Jefferson.md",
+    "Work/Budget/Q1 2022.md",
     "Family/Recipes/Spicy-Sweet Buffalo Popcorn.md",
+    "Family/Vacations/Peru.md",
     "test.md",
     "Family/Objectives/Family Recipes.md",
-    "Family/Guests/Guest list.md",
     "Family/Objectives/Family Calendar.md",
     "Work/Personnel/Sally Smith.md",
-    "Family/Vacations/Austria.md",
-    "Work/Personnel/Brad Jefferson.md",
     "Research/What is Spaced Repetition and How to use it?.md",
     "Family/Recipes/Smores.md",
-    "Personal Projects/Writing/5 ways to love PKM more.md",
     "Family/Recipes/Almond Peanut Butter.md",
-    "Personal Projects/Learning/Early American History.md",
     "Personal Projects/Learning/Spanish - Entry Level.md",
     "Personal Projects/Remodeling/Paint entryway.md",
     "Personal Projects/Remodeling/Project X Definition and Specifications.md",
-    "Work/Projects/Firewall upgrades.md",
     "Work/Personnel/Bill Hansen.md",
-    "Work/Budget/Q1 2022.md",
-    "Personal Projects/Remodeling/Research building Garage.md",
     "Research/Untitled",
     "Research",
-    "Family/Vacations/Texas.md",
-    "Family/Objectives/Yearly Budget.md",
     "images/YouTubeFromSergio.png",
     "images/home.jpg"
   ]

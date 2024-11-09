@@ -1,3 +1,20 @@
+.nv-homepage-interstitial {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background: var(--background-primary);
+	z-index: 9999;
+	animation: 0.02s ease-in 0.5s forwards nv-interstitial-destroy;
+	pointer-events: none;
+}
+
+@keyframes nv-interstitial-destroy {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 .setting-item[nv-greyed] {
 	opacity: .5; 
 	pointer-events: none !important;
@@ -45,6 +62,10 @@
 	padding: 10px 0 0;
 }
 
+#nv-main-setting #nv-desc.mod-warning {
+	color: var(--text-error);
+}
+
 #nv-main-setting #nv-desc code {
 	font-family: var(--font-monospace);
 	font-size: var(--font-smaller);
@@ -57,6 +78,17 @@
 	color: var(--text-muted);
 	font-size: calc(var(--font-ui-smaller) * 0.9);
 	padding: 5px 0 0;
+}
+
+.nv-mobile-setting {
+	flex-wrap: wrap;
+	row-gap: var(--size-2-2);
+}
+
+.nv-mobile-setting .nv-mobile-info {
+	font-size: var(--font-ui-smaller);
+	width: 100%;
+	margin-right: var(--size-4-18);
 }
 
 .nv-command-desc {
@@ -77,19 +109,51 @@
 	border: 1px solid var(--background-modifier-border-hover);
 	border-radius: var(--radius-s);
 	font-size: var(--font-ui-small);
-	padding: var(--size-2-1) var(--size-2-3);
+	padding: var(--size-2-1) var(--size-2-2) var(--size-2-1) var(--size-2-3) ;
+}
+
+.nv-command-pill.nv-command-invalid {
+	color: var(--text-faint);
 }
 
 .nv-command-pill button {
 	display: inline-block;
 	padding: 0;
-	margin: 0 0 0 var(--size-2-3);
+	margin: 0 0 0 3px;
 	vertical-align: bottom;
 }
 
-.nv-command-pill button svg {
+.nv-command-pill button:first-of-type {
+	margin-left: var(--size-4-2);
+}
+
+.nv-command-pill button.nv-command-selected {
+	margin-left: var(--size-2-2);
+	padding: 0 var(--size-2-1);
+}
+
+.nv-command-pill button.nv-command-selected span {
+	color: var(--text-accent);
+	display: inline-block;
+	font-size: 0.9em;
+	vertical-align: top;
+	position: relative;
+	top: -1px;
+}
+
+.nv-command-pill > .svg-icon, .nv-command-pill button .svg-icon {
 	height: 1em;
 	width: 1em;
+}
+
+.nv-command-pill > .svg-icon {
+	vertical-align: text-bottom;
+	position: relative;
+	margin: 0 var(--size-2-1) 0 0;
+}
+
+.nv-command-pill.nv-dragging {
+	background-color: transparent;
 }
 
 .nv-command-add-button {
@@ -130,6 +194,45 @@
 	max-width: auto;
 }
 
-.is-phone .nv-command-pill button, .is-phone .nv-command-add-button {
-	width: auto;
+.is-phone .nv-mobile-setting {
+	row-gap: var(--size-4-2);
+}
+
+.is-phone .nv-mobile-setting .setting-item-info {
+	max-width: calc(100% - 100px);
+}
+
+.is-phone .nv-mobile-setting {
+	row-gap: var(--size-4-2);
+}
+
+.is-phone .nv-mobile-setting .setting-item-info {
+	max-width: calc(100% - 100px);
+}
+
+.is-phone .nv-command-pill {
+	width: 100%;
+	border: none;
+	background: none;
+	padding: 0 0 var(--size-4-2);
+	display: flex;
+	gap: var(--size-4-4);
+	align-items: baseline;
+}
+
+.is-phone .nv-command-pill .nv-command-text {
+	flex-grow: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.is-phone .nv-command-pill, .is-phone .nv-command-add-button {
+	font-size: var(--font-ui-medium);
+	justify-content: space-between;
+}
+
+.is-phone .nv-command-pill button {
+	line-height: var(--font-ui-medium);
+	height: 100%;
+	margin: 0 !important;
 }

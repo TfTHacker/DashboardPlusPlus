@@ -1,10 +1,16 @@
 {
-  "version": 2,
-  "defaultNote": "Dashboard++",
-  "workspace": "Home",
-  "workspaceEnabled": false,
-  "hasRibbonIcon": true,
-  "openMode": "Replace all open notes",
-  "view": "Reading view",
-  "refreshDataview": true
+  "version": 4,
+  "homepages": {
+    "Main Homepage": {
+      "version": 2,
+      "hasRibbonIcon": true,
+      "openMode": "Replace all open notes",
+      "view": "Reading view",
+      "refreshDataview": true,
+      "value": "Dashboard++",
+      "kind": "File",
+      "commands": []
+    }
+  },
+  "separateMobile": false
 }
