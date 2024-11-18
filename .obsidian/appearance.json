@@ -3,8 +3,10 @@
   "cssTheme": "",
   "enabledCssSnippets": [
     "dashboard",
-    "dashboard-ReadLineLength"
+    "dashboard-ReadLineLength",
+    "dim-support-files",
+    "vault-logo"
   ],
   "theme": "obsidian",
-  "accentColor": ""
+  "accentColor": "#b86123"
 }

@@ -5,7 +5,7 @@ banner_y: 0.55
 cssclass: dashboard
 banner_x: 0.5
 ---
-<div class="title">Family Recipes</div>
+<div class="title" style="color:saddlebrown">Family Recipes</div>
 
 # Family Favorites
 - Kids

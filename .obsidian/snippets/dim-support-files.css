@@ -1,0 +1,13 @@
+/* Dim README and push it away from the other foldres */
+div[data-path="README.md"] {
+  opacity: 0.25;
+  border-top: 1px solid grey;
+  border-radius: 0;
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+/* Dim the changelog */
+div[data-path="Ω CHANGELOG.md"] {
+  opacity: 0.25;
+}
