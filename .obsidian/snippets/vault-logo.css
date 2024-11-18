@@ -1,3 +1,8 @@
+/* 
+Last updated 2024-11-18
+This solution is provided by TfT Hacker. Learn more at https://tfthacker.com
+*/
+
 /* Embed an image to the right of the div */
 div[data-path="0-Vault-Logo"] * {
   display: none;

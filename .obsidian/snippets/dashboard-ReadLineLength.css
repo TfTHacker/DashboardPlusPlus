@@ -2,13 +2,13 @@
 Optional css that can be added to make dashboards use wide margin 
 if "Readable line length" is enabled in Editor
  
-Updated 2023-11-02
-
+Last updated 2024-11-18
+This solution is provided by TfT Hacker. Learn more at https://tfthacker.com
 */
 
-.dashboard.markdown-preview-view.is-readable-line-width .markdown-preview-section,
-.dashboard.markdown-preview-view.is-readable-line-width .markdown-preview-section > div {   
-   width: 100% !important;
-   max-width: 100% !important;
- }
 
+.dashboard.markdown-preview-view.is-readable-line-width .markdown-preview-section,
+.dashboard.markdown-preview-view.is-readable-line-width .markdown-preview-section>div {
+  width: 100% !important;
+  max-width: 100% !important;
+}

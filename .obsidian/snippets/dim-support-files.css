@@ -1,5 +1,11 @@
+/* 
+Last updated 2024-11-18
+This solution is provided by TfT Hacker. Learn more at https://tfthacker.com
+*/
+
+
 /* Dim README and push it away from the other foldres */
-div[data-path="README.md"] {
+div[data-path="LICENSE.md"] {
   opacity: 0.25;
   border-top: 1px solid grey;
   border-radius: 0;
@@ -7,7 +13,11 @@ div[data-path="README.md"] {
   padding-top: 10px;
 }
 
-/* Dim the changelog */
+/* Dim the following files */
+div[data-path="README.md"] {
+  opacity: 0.25;
+}
+
 div[data-path="Ω CHANGELOG.md"] {
   opacity: 0.25;
 }

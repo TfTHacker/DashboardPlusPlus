@@ -1,4 +1,7 @@
-/* Updated 2023-11-02 */
+/* 
+Last updated 2024-11-18
+This solution is provided by TfT Hacker. Learn more at https://tfthacker.com
+*/
 
 .dashboard {
     font-family: inherit;
@@ -28,28 +31,28 @@
 
 
 /* Get rid of the parent bullet */
-.dashboard div.markdown-preview-section > div > ul > li > .list-bullet {
+.dashboard div.markdown-preview-section>div>ul>li>.list-bullet {
     display: none !important;
 }
 
 /* Remove the indentation guide lines */
-.dashboard.markdown-rendered.show-indentation-guide li > ul::before,
-.dashboard.markdown-rendered.show-indentation-guide li > ol::before {
-  display: none;
+.dashboard.markdown-rendered.show-indentation-guide li>ul::before,
+.dashboard.markdown-rendered.show-indentation-guide li>ol::before {
+    display: none;
 }
 
-div.markdown-preview-section > div > ul.has-list-bullet > li {
+div.markdown-preview-section>div>ul.has-list-bullet>li {
     padding-left: 0p !important;
 }
 
-.dashboard div > ul {
+.dashboard div>ul {
     list-style: none;
     display: flex;
     column-gap: 50px;
     flex-flow: row wrap;
 }
 
-.dashboard div > ul > li {
+.dashboard div>ul>li {
     min-width: 250px;
     width: 15%;
 }
@@ -59,5 +62,3 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
     row-gap: 0px !important;
     list-style-type: disc !important;
 }
-
-
